@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=League+Spartan:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+header{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header ul li{
+
+    margin: 8px;
+    text-decoration: none;
+    padding: 21px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-family: "League Spartan", sans-serif;
+    font-size: 20px ;
+    font-weight: 500;
+}
+.sunrise{
+    height: 100px;
+}
+
+h1{
+    font-family: "League Spartan", sans-serif;
+    font-size: 30px;
+}
+h2{
+    font-family: "League Spartan", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.imagen-extrass{
+    display: flex;
+    }
+    .imagen-extras img{
+        width: 150px;
+        height: 150px;
+        margin-right: 10px;
+    }
+
+.imagen-vino{
+    display: flex;
+    width: 390px;
+    height: 350px;
+    margin-right: 100px;
+    gap: 10px;
+}
+
+.right {
+    margin-left: 175%;
+    margin-top: 0%;
+    white-space: nowrap;
+}
